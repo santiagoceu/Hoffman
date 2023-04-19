@@ -17,6 +17,15 @@ class Node implements Comparable<Node> {
     public int compareTo(Node n) {
         if (this.frequency!=n.frequency)
             return Long.compare(this.frequency, n.frequency);
+//        else if (this.c==" ") {
+//            return -999;
+//        } else if (this.c==",") {
+//            return -1000;
+//        } else if (n.c==" ") {
+//            return 999;
+//        } else if (n.c==",") {
+//            return 1000;
+//        }
         else return CharSequence.compare(this.c,n.c);
     }
 
@@ -36,8 +45,8 @@ class Node implements Comparable<Node> {
         }
 //        else {
 //            int comparison = CharSequence.compare(left.c,right.c);
-//            this.left = comparison == -1 || comparison == 0 ? left : right;
-//            this.right = comparison == 1 || comparison == 0 ? left : right;
+//            this.left = comparison == 1 || comparison == 0 ? left : right;
+//            this.right = comparison == -1 || comparison == 0 ? left : right;
 //        }
 
         this.frequency=left.frequency+right.frequency;
@@ -52,6 +61,7 @@ class Node implements Comparable<Node> {
 public class Huffman {
     private static PriorityQueue<Node> queue = new PriorityQueue<>();
     private static HashMap<String,String> codes = new HashMap<String, String>();
+
 
     public void addNode(Node n) {
         queue.add(n);
@@ -120,6 +130,7 @@ public class Huffman {
         return decoded.toString();
     }
     public String encode(String input) {
+        calculateFrequency(input);
         connectTree();
         generateCodes(queue.peek(),"");
         StringBuilder output = new StringBuilder();

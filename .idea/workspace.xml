@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8aadf866-19f1-4aff-9119-733a6df3c450" name="Changes" comment="Chaos">
+    <list default="true" id="8aadf866-19f1-4aff-9119-733a6df3c450" name="Changes" comment="Kinda works">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Huffman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Huffman.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
@@ -56,7 +56,7 @@
       <workItem from="1681452538853" duration="2329000" />
       <workItem from="1681455096700" duration="2594000" />
       <workItem from="1681794703124" duration="21000" />
-      <workItem from="1681918312389" duration="13234000" />
+      <workItem from="1681918312389" duration="16239000" />
     </task>
     <task id="LOCAL-00001" summary="Chaos">
       <created>1681932142092</created>
@@ -65,7 +65,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681932142092</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Kinda works">
+      <created>1681941826851</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681941826851</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -73,6 +80,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Chaos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chaos" />
+    <MESSAGE value="Kinda works" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kinda works" />
   </component>
 </project>
